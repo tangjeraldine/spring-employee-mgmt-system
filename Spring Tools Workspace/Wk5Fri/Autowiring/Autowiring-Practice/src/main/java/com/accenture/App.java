@@ -7,6 +7,7 @@ public class App
 {
     public static void main( String[] args )
     {
+    	// create context using the Car class (much like BeanConfig)
     	ApplicationContext context = new AnnotationConfigApplicationContext(Car.class);
     	
     	// use context to obtain the bean that you declared earlier --> carbean
